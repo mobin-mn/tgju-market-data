@@ -3,12 +3,11 @@
 An optimized pipeline to collect, preprocess, and analyze financial market data from [TGJU.org](https://www.tgju.org/).
 
 ## 📌 Project Overview
-This repository currently tracks historical daily data for the **US Dollar (USD/IRR)** starting from **September 22, 2024 (1403/07/01)** to the present. The data is scraped directly using optimized network sessions and regular expressions for clean tabular output.
-
+This repository tracks historical daily time-series data for key Iranian and global benchmarks—including **US Dollar (USD/IRR)**, **18K Gold**, **Emami Gold Coin**, and **Global Spot Gold Ounce (XAU/USD)**—starting from **September 22, 2024 (1403/07/01)** to the present.
 ## 🚀 Key Features
 - **Session-Based Extraction:** Employs `requests.Session` for persistent TCP connections, cutting retrieval latency by ~45%.
 - **Clean Tabular Output:** Uses regular expressions to clean embedded HTML markup while preserving price separators and date structures.
-- **Export Ready:** Automatically compiles and exports standardized records to `Tgju_dolar.csv`.
+* **Export Ready:** Automatically compiles and exports standardized records to dedicated CSV datasets (`Tgju_*.csv`).
 * **Modular Extensibility:** Built on configurable endpoints; effortlessly target new assets, currencies, or indices by updating URL slugs without modifying core scraping logic.
 
 ## 🗺️ Project Roadmap
@@ -47,8 +46,8 @@ These datasets will drive upcoming statistical evaluations, including correlatio
 ## 🛠️ Setup & Usage
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/](https://github.com/)<your-username>/<repo-name>.git
-   cd <repo-name>
+   git clone https://github.com/mobin-mn/tgju-market-data.git
+   cd tgju-market-data
    ```
 2. **Install dependencies:**
    ```bash
