@@ -15,7 +15,7 @@ This repository tracks historical daily time-series data for key Iranian and glo
 - [x] **Phase 1: USD Data Extraction**
     - [x] Historical scraping and dynamic pagination handling.
     - [x] Robust session management and regex payload cleaning.
-    - [x] Standardized CSV persistence (`Tgju_dolar.csv`).
+    - [x] Standardized CSV persistence (`Tgju_dolar.csv`). *
 
 - [x] **Phase 2: Precious Metals & Commodities Expansion**
     - [x] Scrape 18K Gold historical rates (`Tgju_gold_18k.csv`).
